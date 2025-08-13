@@ -1,0 +1,138 @@
+/* AdminHome.css */
+
+/* General styling for the entire admin home page */
+.admin-home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Styling for the header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-icon {
+    background-color: white;
+    color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: center;
+}
+
+/* Styling for the main content area */
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the welcome section */
+.welcome-section h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Styling for the actions section */
+.actions-section {
+    margin-top: 20px;
+}
+
+.book-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.book-list-header h3 {
+    margin: 0;
+}
+
+.book-list-header button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-list-header button:hover {
+    background-color: #218838;
+}
+
+/* Styling for the book list */
+.book-list {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.book-list-headings {
+    display: flex;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.book-list-headings span {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-list-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-list-item span {
+    flex: 1;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+.unavailable {
+    color: red;
+    font-weight: bold;
+}
+

@@ -1,0 +1,49 @@
+.issue-book-container {
+  background: #9bb2ca;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.issue-book-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #343a40;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-group select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  width: 100%;
+}
+
+.issue-button {
+  padding: 0.6rem 1rem;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.issue-button:hover {
+  background-color: #218838;
+}

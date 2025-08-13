@@ -1,0 +1,45 @@
+.issued-books-page {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.issued-books-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.issued-books-page table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.issued-books-page th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.issued-books-page th {
+  background-color: #007bff;
+  color: white;
+}
+
+.issued-books-page tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.issued-books-page button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.issued-books-page button:hover {
+  background-color: #218838;
+}

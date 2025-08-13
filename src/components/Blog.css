@@ -1,0 +1,16 @@
+.blog-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #87a4cf; /* Fallback color */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    font-size: 20px;
+    text-align: left;
+}
+.content{
+    font-size: 14px;
+}

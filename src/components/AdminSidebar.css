@@ -1,0 +1,51 @@
+.sidebar {
+  width: 220px;
+  background-color: #343a40;
+  min-height: 100vh;
+  padding: 1.5rem 1rem;
+  color: white;
+  position: fixed;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: #ffc107;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #dee2e6;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+.logout-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #5dc6d4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  text-align: left;
+}
+
+.logout-button:hover {
+  background-color: #9ac9c6;
+}

@@ -1,0 +1,45 @@
+/* About.css */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #cf8787; /* Fallback color */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .about-page img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+   
+  }
+  .about-banner {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(91, 194, 207, 0.6); /* Semi-transparent overlay */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .about-banner h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .about-content {
+    max-width: 800px; /* Adjust max-width as needed */
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,46 @@
+.issued-list-container {
+  background: #f8f9fa;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.issued-list-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(147, 178, 180);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #343a40;
+  color: white;
+}
+
+th, td {
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.returned {
+  color: #28a745;
+}
+
+.status.issued {
+  color: #dc3545;
+}
