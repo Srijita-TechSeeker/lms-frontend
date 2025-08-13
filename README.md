@@ -1,3 +1,21 @@
+# Library Management System Frontend
+
+This is the frontend repository for the Library Management System.
+
+### Live Application
+
+You can view the live application here
+(https://flourishing-nasturtium-a80902.netlify.app/)
+
+---
+
+### Backend Repository
+
+The backend code for this project is available here:
+(https://github.com/Srijita-TechSeeker/Library-Management-System)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
